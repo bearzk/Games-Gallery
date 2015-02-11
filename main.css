@@ -1,0 +1,51 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-family: Trebuchet MS,Tahoma,Helvetica,Georgia,Sans-serif;
+}
+a:link {
+	text-decoration: none;
+}
+li {
+	list-style-type: none;	
+}
+.header {
+	padding: 20px;
+	background-color: #b66662;
+	color: #ffffff;	
+}
+.header a {
+	padding-bottom: 18px;
+	color: #ffffff;
+}
+.nav li {
+	display: inline;
+	padding: 20px
+}
+.nav li:first-child {
+	font-size: 24px;
+}
+.nav a:hover {
+	color: #ECECEC;	
+}
+h2 {
+	border-bottom: #ECECEC solid 1px;
+	padding: 5px 0 5px 0;
+	margin: 10px 0 5px 0;
+}
+.current a {
+	
+	border-bottom: #ffffff solid 2px;
+}
+.main-content {
+	width: auto;
+	height: 900px;
+	padding: 20px 0 0 180px;
+	 	
+	margin: 0;
+	background-color: #F5F5F5;	
+}
+.main-content li {
+	margin: 5px 0 5px 0;
+}
