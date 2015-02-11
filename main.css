@@ -2,22 +2,27 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
 	padding: 0;
 	border: 0;
 	margin: 0;
-	font-family: Trebuchet MS,Tahoma,Helvetica,Georgia,Sans-serif;
+	font-family: Georgia,Helvetica,Tahoma,Sans-serif;
+}
+body {
+	background-color: #F5F5F5;
+	background-image: url(images/triple_town_07.jpg);
+	background-repeat: repeat;
 }
 a:link {
 	text-decoration: none;
 }
 li {
-	list-style-type: none;	
+	list-style-type: none;
 }
 .header {
-	padding: 20px;
-	background-color: #b66662;
-	color: #ffffff;	
+	padding: 10px;
+	background-color: #323232;
+	color: #ECECEC;
 }
 .header a {
-	padding-bottom: 18px;
-	color: #ffffff;
+	padding-bottom: 8px;
+	color: #ECECEC;
 }
 .nav li {
 	display: inline;
@@ -25,27 +30,31 @@ li {
 }
 .nav li:first-child {
 	font-size: 24px;
+	margin-left: 437px;
 }
 .nav a:hover {
-	color: #ECECEC;	
+	color: #808080;
 }
 h2 {
-	border-bottom: #ECECEC solid 1px;
 	padding: 5px 0 5px 0;
 	margin: 10px 0 5px 0;
 }
 .current a {
-	
-	border-bottom: #ffffff solid 2px;
+
+	border-bottom: #ECECEC solid 1px;
 }
 .main-content {
-	width: auto;
-	height: 900px;
-	padding: 20px 0 0 180px;
-	 	
-	margin: 0;
-	background-color: #F5F5F5;	
+	width: 950px;
+	height: auto;
+	padding:10px 0 50px 20px;
+	margin: 20px auto 20px auto;
+	background-color: #ECECEC;
 }
 .main-content li {
-	margin: 5px 0 5px 0;
+
+	display: inline;
+}
+.main-content img {
+	height: 250px;
+	margin: 0 5px 10px 0;
 }
